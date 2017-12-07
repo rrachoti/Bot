@@ -1,0 +1,24 @@
+@import "../libs/semantic/semantic.min.css";
+
+@font-face  {
+    font-family: 'sans-serif';
+    src: url('../fonts/icons.eot');
+    src: url('../fonts/icons.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/icons.woff2') format('woff2'),
+         url('../fonts/icons.woff') format('woff'),
+         url('../fonts/icons.ttf') format('truetype'),
+         url('../fonts/icons.svg#svgFontName') format('svg');
+}
+* {
+  font-family: 'sans-serif';
+  padding: 0;
+  margin: 0
+} 
+body, html { 
+  overflow-x: hidden; 
+  overflow-y: hidden;
+  cursor: move;
+}
+.modal {
+  cursor: default;
+}
